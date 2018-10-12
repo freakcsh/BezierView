@@ -9,13 +9,11 @@ import com.android.freak.bezierview.R;
 public class MainActivity extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
 
 
     public void sinOnclick(View view) {
@@ -40,5 +38,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void bitmapOnclick(View view) {
         BitmapViewAct.startAction(this);
+    }
+
+    public void pathOnclick(View view) {
+        PathOperationAct.startAction(this);
+    }
+
+    public void pathMeasureViewOnclick(View view) {
+        PathMeasureViewAct.startAction(this);
+    }
+
+    public void svgOnclick(View view) {
+        SvgAct.startAction(this);
     }
 }
