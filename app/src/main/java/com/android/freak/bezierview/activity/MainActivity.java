@@ -51,4 +51,8 @@ public class MainActivity extends AppCompatActivity {
     public void svgOnclick(View view) {
         SvgAct.startAction(this);
     }
+
+    public void FlowRadioGroupOnclick(View view) {
+        FlowRadioGroupAct.startAction(this);
+    }
 }

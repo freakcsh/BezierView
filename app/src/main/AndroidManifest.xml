@@ -26,7 +26,8 @@
         <activity android:name=".activity.BitmapViewAct" />
         <activity android:name=".activity.PathOperationAct" />
         <activity android:name=".activity.PathMeasureViewAct" />
-        <activity android:name=".activity.SvgAct"></activity>
+        <activity android:name=".activity.SvgAct" />
+        <activity android:name=".activity.FlowRadioGroupAct"></activity>
     </application>
 
 </manifest>
