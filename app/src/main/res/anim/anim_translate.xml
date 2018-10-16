@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TranslateAnimation 位移渐变-->
+<!--
+属性解释：
+
+fromXDelta/fromYDelta：动画起始位置的X/Y坐标
+toXDelta/toYDelta：动画结束位置的X/Y坐标
+-->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="0"
+    android:toXDelta="320"
+    android:fromYDelta="0"
+    android:toYDelta="320"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:duration="2000">
+<!--duration 设置动画持续的时间
+interpolator  设置动画的插值期
+-->
+</translate>

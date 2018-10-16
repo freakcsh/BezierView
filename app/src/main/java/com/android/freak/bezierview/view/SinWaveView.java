@@ -142,7 +142,7 @@ public class SinWaveView extends View {
 
         mPath.moveTo(-waveLength + mOffset, mWaveAmplitude);
 
-        // TODO: 2017/6/19   //相信很多人会疑惑为什么控制点的纵坐标是以下值,是根据公式计算出来的,具体计算方法情况文章内容
+        // TODO: 很多人会疑惑为什么控制点的纵坐标是以下值,是根据公式计算出来的,具体计算方法情况文章内容
 
         for (int i = 0; i < mWaveCount; i++) {
 //            //第一个控制点的坐标为(-mWaveLength * 3 / 4,-mWaveAmplitude)

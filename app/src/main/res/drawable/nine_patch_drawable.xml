@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<nine-patch xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:dither="true"-->
+    <!--android:src="@drawable/ic_launcher"/>-->
+    <!--dither   是否抖动-->
+
+<!--两张方式使用.9图，.9图只能放在drawable文件夹下面-->
+<bitmap
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:src="@drawable/ic_launcher"
+android:dither="false"/>

@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +27,19 @@
         <activity android:name=".activity.PathOperationAct" />
         <activity android:name=".activity.PathMeasureViewAct" />
         <activity android:name=".activity.SvgAct" />
-        <activity android:name=".activity.FlowRadioGroupAct"></activity>
+        <activity android:name=".activity.FlowRadioGroupAct" />
+        <activity android:name=".drawable.NinePatchDrawableAct" />
+        <activity android:name=".drawable.BaseDrawableAct" />
+        <activity android:name=".drawable.ShapeDrawableAct" />
+        <activity android:name=".drawable.GradientDrawableAct" />
+        <activity android:name=".drawable.InsetDrawableAct" />
+        <activity android:name=".drawable.ClipDrawableAct" />
+        <activity android:name=".drawable.AnimationDrawableAct" />
+        <activity android:name=".drawable.LayerDrawableAct" />
+        <activity android:name=".drawable.TransitionDrawableAct" />
+        <activity android:name=".animation.BaseAnimationAct" />
+        <activity android:name=".animation.BJAnimationAct" />
+        <activity android:name=".animation.ObjectAnimatorAct"></activity>
     </application>
 
 </manifest>

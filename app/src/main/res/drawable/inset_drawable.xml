@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/arrow"
+    android:insetBottom="10dp"
+    android:insetLeft="10dp"
+    android:insetRight="10dp"
+    android:insetTop="10dp"
+    />
+
+<!--
+1.drawable:引用的Drawable,如果为空,必须有一个Drawable类型的子节点!
+2.visible:设置Drawable是否额空间
+3.insetLeft,insetRight,insetTop,insetBottm:设置左右上下的边距
+-->

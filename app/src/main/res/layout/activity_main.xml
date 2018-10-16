@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.android.freak.bezierview.activity.MainActivity">
+    tools:context="com.android.freak.bezierview.MainActivity">
 
     <Button
         android:layout_width="match_parent"
@@ -67,8 +67,8 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
-        android:onClick="sinOnclick"
-        android:text="正弦函数波浪"
+        android:onClick="drawableOnclick"
+        android:text="Drawable"
         android:textSize="15sp" />
     <Button
         android:layout_width="match_parent"
@@ -77,4 +77,13 @@
         android:onClick="testOnclick"
         android:text="测试"
         android:textSize="15sp" />
+     <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:onClick="animationOnclick"
+        android:text="Animation"
+        android:textSize="15sp" />
+
+
 </LinearLayout>

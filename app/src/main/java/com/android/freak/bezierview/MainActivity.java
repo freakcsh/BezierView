@@ -1,10 +1,21 @@
-package com.android.freak.bezierview.activity;
+package com.android.freak.bezierview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
 import com.android.freak.bezierview.R;
+import com.android.freak.bezierview.activity.BezierViewAct;
+import com.android.freak.bezierview.activity.BitmapViewAct;
+import com.android.freak.bezierview.activity.FlowRadioGroupAct;
+import com.android.freak.bezierview.activity.HeartViewAct;
+import com.android.freak.bezierview.activity.PathMeasureViewAct;
+import com.android.freak.bezierview.activity.PathOperationAct;
+import com.android.freak.bezierview.activity.SinWaveViewAct;
+import com.android.freak.bezierview.activity.SvgAct;
+import com.android.freak.bezierview.activity.TestViewAct;
+import com.android.freak.bezierview.animation.BaseAnimationAct;
+import com.android.freak.bezierview.drawable.BaseDrawableAct;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,5 +65,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void FlowRadioGroupOnclick(View view) {
         FlowRadioGroupAct.startAction(this);
+    }
+
+    public void drawableOnclick(View view) {
+        BaseDrawableAct.startAction(this);
+    }
+
+    public void animationOnclick(View view) {
+        BaseAnimationAct.startAction(this);
     }
 }

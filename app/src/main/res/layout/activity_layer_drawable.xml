@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.freak.bezierview.drawable.LayerDrawableAct">
+<SeekBar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:progressDrawable="@drawable/layer_list_one"
+    android:thumb="@drawable/select_sweekbar"
+    android:maxHeight="20dp"
+    android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+    android:indeterminateOnly="false"
+    />
+</android.support.constraint.ConstraintLayout>

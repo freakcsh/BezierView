@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/arrow"
+    android:clipOrientation="vertical"
+    android:gravity="center"/>
+
+<!--
+clipOrietntion:设置剪切的方向,可以设置水平和竖直2个方向
+gravity:从那个位置开始裁剪
+drawable:引用的drawable资源,为空的话需要有一个Drawable类型的子节点
+ ps:这个Drawable类型的子节点:就是在<clip里>加上这样的语句: 这样...
+-->
