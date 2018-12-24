@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BezierView.iml" filepath="$PROJECT_DIR$/BezierView.iml" />
+      <module fileurl="file://E:\clone\BezierView\BezierView.iml" filepath="E:\clone\BezierView\BezierView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\clone\BezierView\app\app.iml" filepath="E:\clone\BezierView\app\app.iml" />
     </modules>
   </component>
 </project>
